@@ -1,0 +1,154 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-menu .icon {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.video-section {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.video-section h1 {
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.video-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #606060;
+}
+
+.actions button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #065fd4;
+}
+
+.channel-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.channel-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.subscribe-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.video-description {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.comments {
+  margin-top: 30px;
+}
+
+.comments h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.comment strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.sidebar h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.recommended-video {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.recommended-video img {
+  width: 120px;
+  height: 70px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.recommended-video p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
